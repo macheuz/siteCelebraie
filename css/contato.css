@@ -182,7 +182,8 @@ p{
 .centralizaIconEndereco{
     width: 30%;
     height: 70%;
-    background-color: green;
+    background-image: url(/img/enderecoIcon.png);
+    background-size: cover;
 }
 .tituloEndereco{
     display: flex;
@@ -239,7 +240,9 @@ p{
 .centralizaIconTelefone{
     width: 30%;
     height: 70%;
-    background-color: green;
+    background-image: url(../img/telefoneIcon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .tituloTelefone{
     display: flex;
@@ -296,7 +299,9 @@ p{
 .centralizaIconEmail{
     width: 30%;
     height: 70%;
-    background-color: green;
+    background-image: url(../img/emailIcon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .tituloEmail{
     display: flex;

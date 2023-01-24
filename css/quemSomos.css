@@ -207,7 +207,8 @@ p{
     height: 80%;
     /*background-color: black;*/
     background-image: url(../img/celularApresentacao.png);
-    background-size: 50Vw;
+    background-size: contain;
+    background-position: center;
     background-repeat: no-repeat;
     border-radius: 10%;
 }
