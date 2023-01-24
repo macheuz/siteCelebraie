@@ -474,7 +474,7 @@ p, span, button{
   width: 65%;
   height: 65%;
   background-color: transparent;
-  background-image: url(/img/iconTriagem.png);
+  background-image: url(../img/iconTriagem.png);
   background-size: 70%;
   background-position: center center;
   background-repeat: no-repeat;
@@ -486,7 +486,7 @@ p, span, button{
   width: 65%;
   height: 65%;
   background-color: transparent;
-  background-image: url(/img/iconEncaminhamento.png);
+  background-image: url(../img/iconEncaminhamento.png);
   background-size: 70%;
   background-position: center center;
   background-repeat: no-repeat;
