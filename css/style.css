@@ -870,6 +870,7 @@ p, span{
   border: 0;
   background-color: var(--azul-color);
   color: white;
+  font-size: 22px;
 }
 .primeiroBlocoDireita{
   display: none;
@@ -914,18 +915,8 @@ p, span{
   background-position: center;
   align-items: flex-end;
 }
-.ajustaSegundoBloco{
-  display: flex;
-  width: 100%;
-  height: 100%;
-  /*background-color: orange;*/
-}
-.segundoBlocoEsquerda > .ajustaSegundoBloco{
-  /*background-color: aqua;*/
-  background-size: 100%;
-  flex-direction: column;
-  display: flex;
-}
+
+
 .tituloSegundoBloco{
   display: flex;
   width: 100%;
@@ -1040,13 +1031,13 @@ p, span{
   align-items: center;
 }
 .faleConosco button{
-  height: 40%;
+  height: 30%;
   width: 60%;
   border-radius: 10px;
   border: 0px;
   background-color: var(--vermelho-color);
   color: white;
-  transition: 0.3s;
+  font-size: 18px;
 }
 .faleConosco button:hover{
   background-color: var(--vermelho-color);
