@@ -120,7 +120,7 @@ p{
     cursor: pointer;
 }
 .linksPrimeiroBloco span{
-    color: var(--titulo-h4-color);
+    color: var(--vermelho-color);
 }
 .espacoEntreblocos{
     display: flex;
