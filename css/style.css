@@ -435,7 +435,7 @@ p, span, button{
 .imagemExplicacao{
     width: 65%;
     height: 65%;
-    background-color: var(--vermelho-color);
+    background-color: transparent;
     background-image: url(../img/testeIcon.png);
     background-size: contain;
     background-repeat: no-repeat;
