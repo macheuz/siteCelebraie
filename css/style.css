@@ -464,9 +464,9 @@ p, span, button{
   height: 65%;
   background-color: transparent;
   background-image: url(../img/iconAgendamento.png);
-  background-size: contain;
-  background-repeat: no-repeat;
+  background-size: 70%;
   background-position: center center;
+  background-repeat: no-repeat;
   border-radius: 50%;
   border: 4px solid var(--vermelho-color);
 }
@@ -475,7 +475,8 @@ p, span, button{
   height: 65%;
   background-color: transparent;
   background-image: url(/img/iconTriagem.png);
-  background-size: contain;
+  background-size: 70%;
+  background-position: center center;
   background-repeat: no-repeat;
   background-position: center center;
   border-radius: 50%;
@@ -486,7 +487,8 @@ p, span, button{
   height: 65%;
   background-color: transparent;
   background-image: url(/img/iconEncaminhamento.png);
-  background-size: contain;
+  background-size: 70%;
+  background-position: center center;
   background-repeat: no-repeat;
   background-position: center center;
   border-radius: 50%;
@@ -511,7 +513,7 @@ p, span, button{
     background-image: url(../img/setaIcon.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 70%;
+    background-size: 40%;
     height: 50%;
     width: 20%;
     margin: 0 0.2%;
