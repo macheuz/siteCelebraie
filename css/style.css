@@ -203,7 +203,7 @@ p, span, button{
   height: 75%;
   background-image: url(../img/imagemPrimeiroBloco.jpeg);
   background-size: cover;
-  border-radius: 10%;
+  border-radius: 15%;
 }
 .segundoBloco{
     display: flex;
@@ -321,6 +321,15 @@ p, span, button{
 }
 .vantagem:hover >.imagemV{
     background-image: url(../img/testeIconRed.png);
+}
+.vantagem:hover >.imagemV1{
+  background-image: url(../img/atendimentoIconVermelho.png);
+}
+.vantagem:hover >.imagemV2{
+  background-image: url(../img/economiaIconVermelho.png);
+}
+.vantagem:hover >.imagemV3{
+  background-image: url(../img/noVirusIconVermelho.png);
 }
 .imagemV1{
     display: flex;
@@ -603,7 +612,7 @@ p, span, button{
     width: 35%;
     height: 75%;
     background-color: white;
-    background-image: url(../img/iconPessoa1.jpeg);
+    background-image: url(../img/iconPessoa2.jpeg);
     background-size: cover;
     background-position: center;
     border-radius: 50%;
@@ -612,7 +621,7 @@ p, span, button{
     width: 35%;
     height: 75%;
     background-color: white;
-    background-image: url(../img/iconPessoa2.jpeg);
+    background-image: url(../img/iconPessoa9.jpeg);
     background-size: cover;
     background-position: center;
     border-radius: 50%;
@@ -630,7 +639,7 @@ p, span, button{
     width: 35%;
     height: 75%;
     background-color: white;
-    background-image: url(../img/iconPessoa4.jpeg);
+    background-image: url(../img/iconPessoa6.jpeg);
     background-size: cover;
     background-position: center;
     border-radius: 50%;
@@ -639,7 +648,43 @@ p, span, button{
     width: 35%;
     height: 75%;
     background-color: white;
-    background-image: url(../img/iconPessoa3.jpeg);
+    background-image: url(../img/iconPessoa5.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+  }
+  .iconImagem5{
+    width: 35%;
+    height: 75%;
+    background-color: white;
+    background-image: url(../img/iconPessoa4.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+  }
+  .iconImagem6{
+    width: 35%;
+    height: 75%;
+    background-color: white;
+    background-image: url(../img/iconPessoa7.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+  }
+  .iconImagem7{
+    width: 35%;
+    height: 75%;
+    background-color: white;
+    background-image: url(../img/iconPessoa1.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+  }
+  .iconImagem8{
+    width: 35%;
+    height: 75%;
+    background-color: white;
+    background-image: url(../img/iconPessoa8.jpeg);
     background-size: cover;
     background-position: center;
     border-radius: 50%;
@@ -660,7 +705,7 @@ p, span, button{
   .textoSlide p{
     text-align: center;
     padding: 5% 3%;
-    font-size: 25px;
+    font-size: 22px;
   }
   .quintoBloco{
     display: flex;
