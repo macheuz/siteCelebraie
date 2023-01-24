@@ -7,10 +7,10 @@
 html, body{
     width: 100%;
 }
-h1 , h2, h3, h4, h5, h6{
+h1 , h2, h3, h4, h5, h6, a{
     font-family: var(--fonte-principal);
 }
-p, span{
+p, span, button{
     font-family: var(--fonte-secundaria);
 }
 .desktop{
@@ -18,6 +18,9 @@ p, span{
   width: 100%;
   flex-direction: column;
   align-items: center;
+}
+.mobile{
+  display: none;
 }
 .menu{
   display: flex;
@@ -70,7 +73,7 @@ p, span{
     flex-direction: column;
     width: 100%;
     margin-top: 100px;
-    height: 100vh;
+    height: 90vh;
     background-color: var(--vermelho-color);
     justify-content: center;
     align-items: center;
@@ -79,7 +82,7 @@ p, span{
 
 .tituloPrimeiroBloco{
     display: flex;
-    width: 95%;
+    width: 80%;
     height: 80%;
     justify-content: center;
     align-items: center;
@@ -112,7 +115,7 @@ p, span{
   display: flex;
   width: 100%;
   /*background-color: blue;*/
-  height: 15%;
+
   align-items: center;
 }
 .botoesPrimeiroBloco button{
@@ -122,8 +125,8 @@ p, span{
   border-radius: 15px;
   border: 0;
   padding: 2% 5%;
-  height: 65%;
-    /*background-color: white;*/
+  height: 15%;
+    background-color: white;
 }
 .botoesPrimeiroBloco button:hover{
   background-color: var(--azul-color);
@@ -133,7 +136,7 @@ p, span{
 .textosPrimeiroBloco{
   display: flex;
   width: 100%;
-  height: 65%;
+  margin-top: 2%;
   align-items: center;
   /*background-color: beige;*/
 }
@@ -154,12 +157,13 @@ p, span{
 .botaoChamadaPrimeiroBloco{
   display: flex;
   width: 100%;
-  height: 20%;
+  margin-top: 3%;
   /*background-color: blanchedalmond;*/
   align-items: center;
 }
 .botaoChamadaPrimeiroBloco button{
-  height: 70%;
+  height: 100%;
+  padding: 2%;
   width: 40%;
   border-radius: 20px;
   border: 0;
@@ -169,13 +173,22 @@ p, span{
 .primeiroBlocoDireita{
   display: flex;
   width: 50%;
-  background-color: orange;
+  align-items: center;
+  justify-content: center;
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  border-radius: 10%;
+}
+.imagemPrimeiroBlocoDireita{
+  display: flex;
+  width: 85%;
+  height: 75%;
   background-image: url(../img/imagemPrimeiroBloco.jpeg);
   background-size: cover;
-  height: 100%;
-  border-radius: 15px;
+  border-radius: 10%;
 }
-
 .segundoBloco{
     display: flex;
     width: 100%;
@@ -293,15 +306,35 @@ p, span{
 .vantagem:hover >.imagemV{
     background-image: url(../img/testeIconRed.png);
 }
-.imagemV{
+.imagemV1{
     display: flex;
     width: 50%;
     height: 35%;
-    background-image: url(../img/testeIcon.png);
+    background-image: url(../img/atendimentoIcon.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom;
     align-items: flex-end;
+}
+.imagemV2{
+  display: flex;
+  width: 50%;
+  height: 35%;
+  background-image: url(../img/economiaIcon.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  align-items: flex-end;
+}
+.imagemV3{
+  display: flex;
+  width: 50%;
+  height: 35%;
+  background-image: url(../img/noVirusIcon.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  align-items: flex-end;
 }
 .tituloV{
     display: flex;
@@ -309,11 +342,12 @@ p, span{
     height: 15%;
     /*background-color: gray;*/
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
 }
 .tituloV h2{
     color: var(--azul-color);
     font-weight: 700;
+    text-align: center;
 }
 .textoV{
     display: flex;
@@ -355,13 +389,14 @@ p, span{
 .terceiroBloco{
     display: flex;
     width: 100%;
-    height: 95vh;
+    height: 75vh;
     /*background-color: yellowgreen;*/
     justify-content: center;
     align-items: center;
 }
 .terceiroBloco > .centralizaBloco{
     height: 100%;
+    width: 80%;
     flex-direction: column;
 }
 .tituloTerceiroBloco{
@@ -382,7 +417,7 @@ p, span{
 .conteudoTerceiroBloco{
     display: flex;
     width: 100%;
-    height: 100%;
+    height: 70%;
     background-color:white ;
     align-items: center;
 }
@@ -611,6 +646,7 @@ p, span{
     /*background-color: beige;*/
     flex-direction: column;
     justify-content: center;
+    padding-right: 10%;
   }
   .tituloTextoBotaoQuintoBlocoDireita h1{
     font-weight: 900;
@@ -723,14 +759,15 @@ p, span{
 
 
 @media (max-width: 768px) {
-
+  .desktop{
+    display: none;
+  }
   .menu{
     display: flex;
     width: 100%;
     height: 100px;
     align-items: center;
     justify-content: center;
-    position: fixed;
     z-index: 1;
     background-color: white;
   }
