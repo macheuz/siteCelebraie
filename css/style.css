@@ -411,6 +411,10 @@ p, span, button{
     cursor: pointer;
     margin-top: -10px;
 }
+.faleConosco a{
+  text-decoration: none;
+  color: white;
+}
 .terceiroBloco{
     display: flex;
     width: 100%;
