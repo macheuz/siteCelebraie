@@ -257,15 +257,26 @@ p{
 }
 .terceiroBlocoDireita p{
     color: var(--titulo-h4-color);
-    margin-bottom: -1%;
+    padding-right:5%;
+    line-height: 26px;
 }
-.terceiroBlocoDireita ul{
-    list-style-type: none;
+.terceiroBlocoDireita button{
+    display: flex;
+    width: 20%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    border-radius: 10px;
+    border: 0;
+    background-color: var(--azul-color);
+    color: white;
+    transition: 0.5s ease-in-out;
 }
-.terceiroBlocoDireita li{
-    margin-top: 20px;
-    margin-left: 0;
-    padding: 0;
+.terceiroBlocoDireita button:hover{
+    cursor: pointer;
+    background-color: var(--vermelho-color);
+    margin-top: -4px;
 }
 .quartoBloco{
     display: flex;
