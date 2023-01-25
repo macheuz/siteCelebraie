@@ -203,7 +203,7 @@ p, span, button{
   height: 75%;
   background-image: url(../img/imagemPrimeiroBloco.jpeg);
   background-size: 100%;
-  border-radius: 15%;
+  border-radius: 20px;
 }
 .segundoBloco{
     display: flex;
@@ -469,8 +469,8 @@ p, span, button{
     border: 4px solid var(--vermelho-color);
 }
 .imagemExplicacao1{
-  width: 65%;
-  height: 65%;
+  width: 120px;
+  height: 120px;
   background-color: transparent;
   background-image: url(../img/iconAgendamento.png);
   background-size: 70%;
@@ -480,8 +480,8 @@ p, span, button{
   border: 4px solid var(--vermelho-color);
 }
 .imagemExplicacao2{
-  width: 65%;
-  height: 65%;
+  width: 120px;
+  height: 120px;
   background-color: transparent;
   background-image: url(../img/iconTriagem.png);
   background-size: 70%;
@@ -492,8 +492,8 @@ p, span, button{
   border: 4px solid var(--vermelho-color);
 }
 .imagemExplicacao3{
-  width: 65%;
-  height: 65%;
+  width: 120px;
+  height: 120px;
   background-color: transparent;
   background-image: url(../img/iconEncaminhamento.png);
   background-size: 70%;
@@ -791,6 +791,14 @@ p, span, button{
     margin-right: 2%;
     font-size: 14px;
   }
+  .botoesQuintoBloco a{
+    text-decoration: none;
+    color: var(--azul-color);
+  }
+  .botoesQuintoBloco a:active{
+    text-decoration: none;
+    color: var(--azul-color);
+  }
   .botoesQuintoBloco button:nth-of-type(1){
     border: 1px solid var(--azul-color);
     background-color: transparent;
@@ -897,7 +905,7 @@ p, span, button{
   }
   .menuPaginas a{
     padding: 0 2%;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 700;
     text-size-adjust: 100%;
     color: var(--linkMenu-color);
@@ -1019,6 +1027,10 @@ p, span, button{
 .faleConosco button{
   font-size: 16px;
 }
+.faleConosco a{
+  text-decoration: none;
+  color: white;
+}
 .terceiroBloco{
   display: flex;
   flex-direction: column;
@@ -1066,30 +1078,30 @@ p, span, button{
   border-radius: 15px;
 }
 .imagemExplicacao1{
-  width: 28%;
-  height: 60%;
+  width: 80px;
+  height: 80px;
   background-image: url(../img/iconAgendamento.png);
-  background-size: contain;
+  background-size: 70%;
   background-repeat: no-repeat;
   background-position: center center;
   border-radius: 50%
 }
 .imagemExplicacao2{
-  width: 28%;
-  height: 60%;
+  width: 80px;
+  height: 80px;
   background-color: transparent;
   background-image: url(../img/iconEncaminhamento.png);
-  background-size: contain;
+  background-size: 70%;
   background-repeat: no-repeat;
   background-position: center center;
   border-radius: 50%
 }
 .imagemExplicacao3{
-  width: 28%;
-  height: 60%;
+  width: 80px;
+  height: 80px;
   background-color: transparent;
   background-image: url(../img/iconEncaminhamento.png);
-  background-size: contain;
+  background-size: 70%;
   background-repeat: no-repeat;
   background-position: center center;
   border-radius: 50%
