@@ -687,6 +687,208 @@ p{
   
   }
 
+  
+
+
+  @media (max-width: 390px) {
+    .desktop{
+        display: none;
+      }
+      .mobile{
+        display: flex;
+        flex-direction: column;
+      }
+      .menu{
+        display: flex;
+        width: 100%;
+        height: 100px;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+        background-color: white;
+      }
+      .menuComDivisoes{
+        display: flex;
+        width: 95%;
+        height: 90%;
+      }
+      .menuImagem{
+        display: flex;
+        width: 23%;
+        margin-left: 6%;
+        justify-content: center;
+        align-items: center;
+      }
+      .menuImagem img{
+        width: 75%;
+      }
+      .menuPaginas{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 67%;
+      }
+      .menuPaginas a{
+        padding: 0 2%;
+        font-size: 12px;
+        font-weight: 700;
+        text-size-adjust: 100%;
+        color: var(--linkMenu-color);
+        text-decoration: none;
+      }
+      .menuPaginas a:first-child{
+        color: var(--vermelho-color);
+      }
+      .menuPaginas a:hover{
+        color: var(--azul-color);
+      }
+    
+      .primeiroBloco{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 100px;
+        height: 40vh;
+        background-color: var(--vermelho-color);
+        background-image: url(/img/fundoPrimeiroBloco.jpeg);
+        background-size: cover;
+        background-position: center;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .conteudoPrimeiroBloco{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        height: 80%;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(245, 222, 179, 0.67);
+    }
+    .espacoPrimeiroBloco{
+      display: flex;
+      width: 100%;
+      height: 50%;
+      background-color: black;
+    }
+    .tituloPrimeiroBloco{
+      display: flex;
+      width: 100%;
+      height: 30%;
+      background-color: orange;
+    }
+    .conteudoPrimeiroBlocoInterno{
+      display: flex;
+      width: 100%;
+      height: 20%;
+      background-color: aqua;
+    }
+  
+  
+    .segundoBloco{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 105vh;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .blocosMeioDeContato{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+    .endereco{
+      width: 95%;
+      margin: 2% 0;
+    }
+    .centralizaIconEndereco{
+      background-position: center;
+    }
+    .telefone{
+      width: 95%;
+      margin: 2% 0;
+    }
+    .centralizaIconTelefone{
+      background-position: center;
+    }
+    .email{
+      width: 95%;
+      margin: 2% 0;
+    }
+    .centralizaIconEmail{
+      display: flex;
+      justify-content: center;
+      background-position: center;
+    }
+    .terceiroBloco{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 60vh;
+    }
+    .terceiroBlocoEsquerda{
+      display: flex;
+      width: 100%;
+    }
+    .terceiroBlocoDireita{
+      display: flex;
+      width: 100%;
+    }
+    .rodape{
+      display: flex;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      background-color: #393939;
+      height: 20vh;
+    }
+    .rodapeEsquerda{
+      display: flex;
+      flex-direction: column;
+      width: calc(100%/3);
+      height: 100%;
+      justify-content: center;
+      align-items: center;
+  
+    }
+    .rodapeEsquerda p{
+      text-align: center;
+      font-size: 12px;
+    }
+    .rodapeCentro{
+      display: flex;
+      width: calc(100%/3);
+      justify-content: center;
+      align-items: center;
+    }
+    .rodapeCentro p{
+      color: white;
+      text-align: center;
+      font-size: 12px;
+    }
+    .rodapeCentro p:hover{
+      color: var(--titulo-h4-color);
+      cursor: pointer;
+    }
+    .rodapeDireita{
+      display: flex;
+      width: calc(100%/3);
+      justify-content: center;
+    }
+    .rodapeDireita img{
+      display: flex;
+      width: 20%;
+      padding: 2%;
+    }
+  
+  
+  }
+  
+
   @media (max-width: 390px) {
     .desktop{
         display: none;

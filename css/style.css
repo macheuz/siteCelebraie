@@ -929,7 +929,7 @@ p, span, button{
     margin-top: 100px;
     height: 100vh;
     background-color: var(--vermelho-color);
-    background-image: url(/img/fundoPrimeiroBloco.jpeg);
+    background-image: url(../img/fundoPrimeiroBloco.jpeg);
     background-size: cover;
     background-position: center;
     justify-content: center;
