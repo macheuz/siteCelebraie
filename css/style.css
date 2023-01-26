@@ -73,7 +73,7 @@ p, span, button{
     flex-direction: column;
     width: 100%;
     margin-top: 100px;
-    height: 72vh;
+    height: 68vh;
     background-color: var(--vermelho-color);
     justify-content: center;
     align-items: center;
