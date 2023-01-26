@@ -750,7 +750,7 @@ p{
         margin-top: 100px;
         height: 40vh;
         background-color: var(--vermelho-color);
-        background-image: url(/img/fundoPrimeiroBloco.jpeg);
+        background-image: url(../img/fundoPrimeiroBloco.jpeg);
         background-size: cover;
         background-position: center;
         justify-content: center;
@@ -949,7 +949,7 @@ p{
         margin-top: 100px;
         height: 40vh;
         background-color: var(--vermelho-color);
-        background-image: url(/img/fundoPrimeiroBloco.jpeg);
+        background-image: url(../img/fundoPrimeiroBloco.jpeg);
         background-size: cover;
         background-position: center;
         justify-content: center;
@@ -1147,7 +1147,7 @@ p{
         margin-top: 100px;
         height: 40vh;
         background-color: var(--vermelho-color);
-        background-image: url(/img/fundoPrimeiroBloco.jpeg);
+        background-image: url(../img/fundoPrimeiroBloco.jpeg);
         background-size: cover;
         background-position: center;
         justify-content: center;
