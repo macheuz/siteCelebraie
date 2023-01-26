@@ -939,7 +939,7 @@ p, span, button{
 .conteudoPrimeiroBloco{
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 85%;
     height: 80%;
     justify-content: center;
     align-items: center;
@@ -949,17 +949,24 @@ p, span, button{
 .tituloPrimeiroBloco{
   display: flex;
   width: 100%;
-  height: 50%;
+  height: 40%;
   background-color: orange;
+  justify-content: center;
 }
 .tituloPrimeiroBloco h1{
-  font-size: 24px;
+  font-size: 26px;
 }
 .conteudoPrimeiroBlocoInterno{
   display: flex;
   width: 100%;
-  height: 50%;
+  height: 10%;
   background-color: aqua;
+}
+.conteudoPrimeiroBlocoInterno2{
+  display: flex;
+  width: 100%;
+  height: 50%;
+  background-color: green;
 }
 
 
