@@ -519,7 +519,7 @@ p{
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 100vh;
+    height: 105vh;
     justify-content: center;
   }
   .imagemSegundoBloco{
@@ -532,7 +532,7 @@ p{
     display: flex;
     width: 100%;
     flex-direction: column;
-    height: 70vh;
+    height: 75vh;
   }
   .textoSegundoBloco h1{
     font-size: 24px;
@@ -579,7 +579,7 @@ p{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 90vh;
+    height: 100vh;
   }
   .imagemTerceiroBloco{
     display: flex;
@@ -592,7 +592,7 @@ p{
     width: 100%;
     flex-direction: column;
     align-items: center;
-    height: 60vh;
+    height: 70vh;
   }
   .textoTerceiroBloco h1{
     font-size: 24px;
@@ -617,6 +617,7 @@ p{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    height: 90vh;
   }
   .imagemQuartoBloco{
     display: flex;
