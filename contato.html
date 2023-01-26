@@ -143,7 +143,29 @@
                     </div><!--alinhaVerticalEsquerda-->
                 </div><!--terceiroBlocoEsquerda-->
                 <div class="terceiroBlocoDireita">
-                    <div id="map"></div>
+                    <div id="map">
+                        <script>
+                            function initMap() {
+                                var myLatLng = {lat: -21.763180, lng: -43.347684};
+                                var map = new google.maps.Map(document.getElementById("map"), {
+                                zoom: 15,
+                                center: myLatLng,
+                                mapTypeControl: false,
+                                zoomControl: false,
+                                streetViewControl: false
+                                });
+                                var marker = new google.maps.Marker({
+                                position: myLatLng,
+                                
+                                map: map,
+                                title: "Hello World!"
+                                });
+                            }
+                            </script>
+                            <script async defer
+                            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyATRRmywAp95TkWTHrXy1tSD65sViOLWqQ&callback=initMap">
+                            </script>
+                    </div>
 
                 </div><!--terceiroBlocoDireita-->
             </div><!--centralizaTerceiroBloco-->
@@ -176,7 +198,7 @@
                     <nav class="menuPaginas">
                         <a href="index.html">Home</a>
                         <a href="quemSomos.html">Quem somos</a>
-                        <a href="blog.html">Blog</a>
+                        
                         <a href="contato.html">Contato</a>
                     </nav><!--menuPaginas-->
                 </div>
@@ -316,24 +338,4 @@
 
         </div><!--mobile-->
 
-        <script>
-            function initMap() {
-                var myLatLng = {lat: -21.763180, lng: -43.347684};
-                var map = new google.maps.Map(document.getElementById("map"), {
-                zoom: 15,
-                center: myLatLng,
-                mapTypeControl: false,
-                zoomControl: false,
-                streetViewControl: false
-                });
-                var marker = new google.maps.Marker({
-                position: myLatLng,
-                
-                map: map,
-                title: "Hello World!"
-                });
-            }
-            </script>
-            <script async defer
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyATRRmywAp95TkWTHrXy1tSD65sViOLWqQ&callback=initMap">
-            </script>
+        
