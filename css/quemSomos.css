@@ -279,6 +279,10 @@ p{
     color: white;
     transition: 0.5s ease-in-out;
 }
+.terceiroBlocoDireita button a{
+  text-decoration: none;
+  color: white;
+}
 .terceiroBlocoDireita button:hover{
     cursor: pointer;
     background-color: var(--vermelho-color);
@@ -335,6 +339,10 @@ p{
     margin-top: 4%;
     padding: 2% 5%;
     border-radius: 10px;
+}
+.quartoBlocoEsquerda button a{
+  text-decoration: none;
+  color: white;
 }
 .quartoBlocoEsquerda button:hover{
     background-color: var(--vermelho-color);
@@ -583,7 +591,7 @@ p{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100vh;
+    height: 80vh;
   }
   .imagemTerceiroBloco{
     display: flex;
@@ -598,7 +606,7 @@ p{
     width: 100%;
     flex-direction: column;
     align-items: center;
-    height: 70vh;
+    height: 50vh;
   }
   .textoTerceiroBloco h1{
     font-size: 24px;
@@ -617,6 +625,10 @@ p{
     border-radius: 10px;
     padding: 2% 0;
     margin-top: 10%;
+  }
+  .textoTerceiroBloco button a{
+    text-decoration: none;
+    color: white;
   }
 
   .quartoBloco{
@@ -638,6 +650,10 @@ p{
     flex-direction: column;
     align-items: center;
     height: 60vh;
+  }
+  .textoQuartoBloco button a{
+    text-decoration: none;
+    color: white;
   }
   .textoQuartoBloco h1{
     font-size: 24px;
@@ -866,7 +882,7 @@ p{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100vh;
+    height: 80vh;
   }
   .imagemTerceiroBloco{
     display: flex;
@@ -878,7 +894,7 @@ p{
     width: 100%;
     flex-direction: column;
     align-items: center;
-    height: 70vh;
+    height: 50vh;
   }
   .textoTerceiroBloco h1{
     font-size: 24px;
@@ -897,6 +913,10 @@ p{
     border-radius: 10px;
     padding: 2% 0;
     margin-top: 10%;
+  }
+  .textoTerceiroBloco button a{
+    text-decoration: none;
+    color: white;
   }
 
   .quartoBloco{
@@ -934,6 +954,10 @@ p{
     border-radius: 10px;
     padding: 2% 0;
     margin-top: 10%;
+  }
+  .textoQuartoBloco button a{
+    text-decoration: none;
+    color: white;
   }
   .rodape{
     display: flex;
@@ -1144,7 +1168,7 @@ p{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 120vh;
+    height: 100vh;
   }
   .imagemTerceiroBloco{
     display: flex;
@@ -1156,7 +1180,7 @@ p{
     width: 100%;
     flex-direction: column;
     align-items: center;
-    height: 90vh;
+    height: 70vh;
   }
   .textoTerceiroBloco h1{
     font-size: 24px;
@@ -1176,7 +1200,10 @@ p{
     padding: 2% 0;
     margin-top: 10%;
   }
-
+  .textoTerceiroBloco button a{
+    text-decoration: none;
+    color: white;
+  }
   .quartoBloco{
     display: flex;
     flex-direction: column;
@@ -1212,6 +1239,10 @@ p{
     border-radius: 10px;
     padding: 2% 0;
     margin-top: 10%;
+  }
+  .textoQuartoBloco button a{
+    text-decoration: none;
+    color: white;
   }
   .rodape{
     display: flex;
