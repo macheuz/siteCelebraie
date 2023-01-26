@@ -745,7 +745,7 @@ p, span, button{
   .tituloTextoBotaoQuintoBlocoDireita{
     display: flex;
     width: 100%;
-    height: 75%;
+    height: 85%;
     /*background-color: beige;*/
     flex-direction: column;
     justify-content: center;
@@ -755,13 +755,20 @@ p, span, button{
     font-weight: 900;
     font-size: 28px;
   }
+  .textosBullets{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 45%;
+  }
   .iconTexto{
     display: flex;
     width: 100%;
     height: 15%;
     /*background-color: purple;*/
     align-items: center;
-    margin-top: 2%;
+    margin-top: 5%;
   }
   .iconeQuintoBloco{
     width: 10%;
